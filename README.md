@@ -28,36 +28,40 @@ Program walk through
 
 - <b>After downloading Packet tracer, you can follow along with the course or we can build our own network as shown here. Start with clicking on end devices and grab a pc, labtop, smart phone, printer, and a server. Now we need to click on Network Devices, then wireless devices. We'll use the WRT300N Router. Lastly click on the cloud icon, then grab the PT Cloud.</b> 
 
+<img src="https://imgur.com/jWX5PKM.jpeg" height="85%" width="85%" alt="Image Analysis Dataflow"/>
 
+<h2>Connecting Everything Together</h2>
 
-<h2>Back to Nessus</h2>
+<img src="https://imgur.com/GSpfo15.jpeg" height="85%" width="85%" alt="Image Analysis Dataflow"/>
 
-<img src="https://imgur.com/R9C5mXw.jpeg" height="85%" width="85%" alt="Image Analysis Dataflow"/>
-
-- <b>Once you're in, we're going to use a basic scan template. Click on 'Policies.<b>
-
-<h2></h2>
-
-<img src="https://imgur.com/f17XJbw.jpeg" height="85%" width="85%" alt="Image Analysis Dataflow"/>
-
-- <b>Now, click on 'Scan Templates.</b> 
+- <b>Let's start with the laptop, double click on the the laptop and click on the power button which is next to the power cord. Now Click on the removable ethernet part and return that to the list of computer parts to the left and replace that with the WPC300N. Then cut the laptop back on and it should auto connect. Close that window and go back to the packet tracer page.<b>
 
 <h2></h2>
 
-<p align="center">
-<img src="https://imgur.com/ZtBAqa7.jpeg" height="85%" width="85%" alt="Image Analysis Dataflow"/>
-</p>
+<img src="https://imgur.com/3lVtoJr.jpeg" height="85%" width="85%" alt="Image Analysis Dataflow"/>
 
-- <b>We're going to run a basic network scan, so click there.<b>
+- <b>Now, we'll do the same with the printer. except the part to install is called WMP300N. Same process turn the printer off swap out the old and in with the new part (WMP300N). Cut the priter back on and close out the window, back to the packet tracer page.</b> 
 
 <h2></h2>
 
 <p align="center">
-<img src="https://imgur.com/rDUVw5N.png" height="85%" width="85%" alt="Image Analysis Dataflow"/>
+<img src="https://imgur.com/2HoIY6D.jpeg" height="85%" width="85%" alt="Image Analysis Dataflow"/>
 </p>
 
-- <b>Now that we're in basic network scans, we need to name this scan
-  and add the IP address for the target we want to scan vulnerabilities on.
+<h2></h2>
+- <b>Last end device to connect for the home network is the pc. Click the Lightning icon, and we'll use the copper straight through. Click the copper straight through from the pc to the router to have all home devices connected.</b>
+<p align="center">
+<img src="https://imgur.com/tW88XaH.jpeg" height="85%" width="85%" alt="Image Analysis Dataflow"/>
+</p>
+
+
+<h2>Connecting to the Internet</h2>
+
+<p align="center">
+<img src="https://imgur.com/KBtuXn0.png" height="85%" width="85%" alt="Image Analysis Dataflow"/>
+</p>
+
+- <b>Click back on the lightning icon, select the same copper straight through wire to the router selecting the internet port. Next connect that cord to the cable modem box and select port 1.
 
 <h2>Back to Metasploitable 2</h2>
 
