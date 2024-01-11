@@ -1,5 +1,6 @@
 # Simple-Home-Network
 Here I will be going to Show you how to build a virtual home network.
+Please Take a look at the uploaded configuration file above. 
 
 
 
