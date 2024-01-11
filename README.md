@@ -63,74 +63,19 @@ Program walk through
 
 - <b>Click back on the lightning icon, select the same copper straight through wire to the router selecting the internet port. Next connect that cord to the cable modem box and select port 1.
 
-<h2>Back to Metasploitable 2</h2>
+<h2></h2>
 
-<img src="https://imgur.com/nfopoen.png" height="85%" width="85%" alt="Image Analysis Dataflow"/>  
+<img src="https://imgur.com/JfaXmdU.png" height="85%" width="85%" alt="Image Analysis Dataflow"/>  
 
-- <b>We need to go back to Metasploitable 2 to grab the IP address using the command 'ifconfig.<b>
-
-<h2>Back to Nessus</h2>
-
-<img src="https://imgur.com/3OGiVHc.png" height="85%" width="85%" alt="Image Analysis Dataflow"/>
-
-- <b>Input your info here.<b>
-- <b>We will do a 'credential scan,' so you'll need your login and password info for Metasploitable to make this work. Now, click on 'Credentials.<b>
+- <b>Click on the blue coaxial cord connect that to the cable modem port 0. Connect the other end to the internet (cloud icon) select coaxial7 port.<b>
 
 <h2></h2>
 
-<img src="https://imgur.com/T5z8VoM.png" height="85%" width="85%" alt="Image Analysis Dataflow"/>
+<img src="https://imgur.com/wDD74TO.png" height="85%" width="85%" alt="Image Analysis Dataflow"/>
 
-- <b>Here, you can choose based on your operating system, whether it's Linux or Windows. I'll show an example of both.<b>
+- <b>Last connection, back to the faithful copper stright through and select the internet icon and select ethernet6. Connect the other end to the server and select fastethernet0.<b>
 
-<h2>Linux</h2>
-<p align="center">
-<img src="https://imgur.com/cdT73tY.png" height="85%" width="85%" alt="Image Analysis Dataflow"/>
-
-- <b>If you're using Linux, click on 'SSH,' then add your username and password for the machine you are scanning. Then, click save to keep things simple.<b>
-
-<h2>windows</h2>
-
-
-<img src="https://imgur.com/UXkVcAe.png" height="85%" width="85%" alt="Image Analysis Dataflow"/>
-
-- <b>"If you're using Windows, click on 'Windows,' and type in your username and password for the machine you are scanning. Then, click save.<b>
-
-<h2>Scannning</h2>
-
-<p align="center">
-<img src="https://imgur.com/J6JX3Gf.png" height="85%" width="85%" alt="Image Analysis Dataflow"/>
-
-- <b>Now, we see our scanner is ready to scan. Let's click the play button to start scanning.<b>
 
 <h2></h2>
 
-<img src="https://imgur.com/fXhDg83.png" height="85%" width="85%" alt="Image Analysis Dataflow"/>
-
-- <b>This is what you'll see when your scanner is running the scan.<b>
-
-<h2></h2>
-
-<p align="center">
-<img src="https://imgur.com/WtIho5T.png" height="85%" width="85%" alt="Image Analysis Dataflow"/>
-
-- <b>Once your scanner is finished, look over by the 'Last Scanned' column; there will be a check next to the date and time. Now, click on your scanner's name to see the results.<b>
-
-<h2>Results</h2>
-
-<img src="https://imgur.com/iRb9Vdu.png" height="85%" width="85%" alt="Image Analysis Dataflow"/>
-
-- <b>"Now, these are the vulnerability results. Many of these results are just informational, but there is one with medium severity according to the CVSS score. You can find this information on the right side of the screen. So, click on the blue bar across the screen under 'Vulnerabilities.<b>
-
-<h2>Vulnerabilities</h2>
-
-<p align="center">
-<img src="https://imgur.com/Xd2Z6h0.png" height="85%" width="85%" alt="Image Analysis Dataflow"/>
-
-- <b>Here is a list of the vulnerabilities found. You can take a look at each one. Click on a vulnerability to see what kind it is and read on how to remediate it. We're going to focus on the mixed severity; SSL (Multiple Issues). Click on that.<b>
-
-<h2></h2>
-
-<img src="https://imgur.com/44QkyZX.png" height="85%" width="85%" alt="Image Analysis Dataflow"/>
-
-- <b>Now, notice the medium severity SSL certificate cannot be trusted. This has a CVSS severity score of 6.5. Click on this severity.
 
